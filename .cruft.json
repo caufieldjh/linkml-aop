@@ -1,0 +1,33 @@
+{
+  "template": "https://github.com/linkml/linkml-project-cookiecutter",
+  "commit": "494e28e5496acc76558c07c95dea62d2db05081c",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "linkml-aop",
+      "__project_slug": "linkml_aop",
+      "github_org": "caufieldjh",
+      "__source_path": "src/linkml_aop/schema/linkml_aop.yaml",
+      "project_description": "A LinkML schema for Adverse Outcome Pathways",
+      "full_name": "J. Harry Caufield",
+      "email": "jhc@lbl.gov",
+      "__author": "J. Harry Caufield <jhc@lbl.gov>",
+      "license": "BSD-3",
+      "main_schema_class": "AOPathway",
+      "create_python_classes": "Yes",
+      "use_schemasheets": "Yes",
+      "google_sheet_id": "1wVoaiFg47aT9YWNeRfTZ8tYHN8s8PAuDx5i2HUcDpvQ",
+      "google_sheet_tabs": "personinfo enums",
+      "__google_sheet_module": "personinfo_enums",
+      "github_token_for_pypi_deployment": "PYPI_PASSWORD",
+      "_copy_without_render": [
+        "justfile",
+        "src/docs/js/*",
+        "src/docs/javascript/*"
+      ],
+      "_template": "https://github.com/linkml/linkml-project-cookiecutter",
+      "_commit": "494e28e5496acc76558c07c95dea62d2db05081c"
+    }
+  },
+  "directory": null
+}

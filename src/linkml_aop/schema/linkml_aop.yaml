@@ -1,0 +1,23 @@
+---
+id: https://w3id.org/caufieldjh/linkml-aop
+name: linkml-aop
+title: linkml-aop
+description: |-
+  A LinkML schema for Adverse Outcome Pathways
+license: BSD-3
+see_also:
+  - https://caufieldjh.github.io/linkml-aop
+
+prefixes:
+  linkml_aop: https://w3id.org/caufieldjh/linkml-aop/
+  linkml: https://w3id.org/linkml/
+  biolink: https://w3id.org/biolink/
+  schema: http://schema.org/
+  PATO: http://purl.obolibrary.org/obo/PATO_
+  example: https://example.org/
+default_prefix: linkml_aop
+default_range: string
+
+imports:
+  - linkml:types
+  - personinfo_enums
